@@ -5,5 +5,5 @@ int main(void)
 {
     string fname = get_string("What is your first name? ");
     string lname = get_string("What is your last name? ");
-    printf("hello, %s  \n", fname, lname);
+    printf("hello, %s %s \n", fname, lname);
 }
