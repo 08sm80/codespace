@@ -3,6 +3,6 @@
 
 int main(void)
 {
-    int name = get_string("What is your name? ");
-    printf("hello, %i \n", name);
+    string name = get_string("What is your name? ");
+    printf("hello, %s \n", name);
 }
