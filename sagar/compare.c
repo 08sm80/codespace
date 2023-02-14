@@ -6,13 +6,12 @@ int main(void)
     int x = get_int("What is the value of x? ");
     int y = get_int("What is the value of y? ");
 
- /*   if (x > y)
-   {
-        printf("X is the greater number");
-    }
-    if else (x < y)
+    if (x < y)
     {
-        printf("Y is the greater number");
+        printf("X is less than Y \n");
     }
-    else (printf("X and Y are equal"));*/
+    else if
+    {
+        printf("X is greater than Y \n");
+    }
 }
