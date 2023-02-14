@@ -14,7 +14,7 @@ int main(void)
     {
         printf("X is greater than Y \n");
     }
-    else (x = y)
+    else (x == y)
     {
         printf("There must be a Z somewhere we don't know yet \n");
     }
